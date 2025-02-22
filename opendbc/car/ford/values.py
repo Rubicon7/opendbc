@@ -144,6 +144,12 @@ class CAR(Platforms):
     ],
     CarSpecs(mass=1650, wheelbase=3.076, steerRatio=17.0),
   )
+  FORD_MAVERICK_MK2 = FordPlatformConfig(
+    [
+      FordCarDocs("Ford Maverick 23-24-noradar", "All", hybrid=True),
+    ],
+       CarSpecs(mass=1836,wheelbase=2.70,steerRatio=13),
+  )
   FORD_MUSTANG_MACH_E_MK1 = FordCANFDPlatformConfig(
     [FordCarDocs("Ford Mustang Mach-E 2021-23", "All", support_type=SupportType.REVIEW)],
     CarSpecs(mass=2200, wheelbase=2.984, steerRatio=17.0),  # TODO: check steer ratio
