@@ -151,6 +151,9 @@ FW_VERSIONS = {
     (Ecu.fwdCamera, 0x706, None): [
       b'NZ6T-14F397-AC\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
+    (Ecu.shiftByWire,0x732, None): [
+      b'NZ6P-14G395-BA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
   },
   CAR.FORD_RANGER_MK2: {
     (Ecu.eps, 0x730, None): [
